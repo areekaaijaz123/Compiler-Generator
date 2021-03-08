@@ -1,0 +1,14 @@
+{
+"function": "fibonacci",
+"return-type": "int",
+"parameters":
+ [
+  {"parameter": "n", "type": "int"}
+ ],
+"conditions":
+ [
+   {"condition": "n == 0", "action": "0"},
+   {"condition": "n == 1", "action": "1"},
+   {"condition": "", "action": "fib(n-2) + fib(n-1)"},
+ ]
+}
